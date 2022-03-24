@@ -34,6 +34,7 @@
             this.txt_tendn = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bt_thoat
@@ -86,12 +87,22 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "Tên ĐN:";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(129, 212);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Đăng Nhập";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(314, 271);
             this.Controls.Add(this.bt_thoat);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bt_dn);
             this.Controls.Add(this.txt_mk);
             this.Controls.Add(this.txt_tendn);
@@ -112,6 +123,7 @@
         private System.Windows.Forms.TextBox txt_tendn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
